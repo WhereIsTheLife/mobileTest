@@ -18,7 +18,7 @@ class BookingRepository(
     private val dao: BookingDao
 ) {
 
-    var counter: Int = 0;
+    var counter: Int = 0
 
     companion object {
         private const val SHIP_REFERENCE = "ABCDEF"
